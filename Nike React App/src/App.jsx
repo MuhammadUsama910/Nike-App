@@ -17,7 +17,7 @@ const App = () => {
       <div className='relative'>
         <Nav/>
         
-        <div className="xl:padding-l wide:padding-r padding-b"> {/* padding-l -> sm:pl-16 pl-8 */}
+        <div className="xl:padding-l wide:padding-r padding-b">      {/* padding-l -> sm:pl-16 pl-8 */}
           <Hero/>
         </div>
 
