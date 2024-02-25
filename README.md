@@ -1,16 +1,14 @@
-## NIKE LANDING PAGE REACT APP
-<br> <br>
-⚙️ Tech Stack
-<br> <br>
+## NIKE LANDING PAGE REACT APP 
+## ⚙️ Tech Stack
 Tailwind CSS
 <br>
 React.js
+<br>
+JavaScript
 
-<br><br>
 ## Some of the Components and 🔋Features include:
 <br>
-<br>
-👉 Complex Hero Section: A visually appealing hero section showcasing key elements. <br>
+👉 Complex Hero Section: A visually appealing hero section showcasing key elements. <br> <br>
 
 👉 Popular Products Showcase: A section highlighting popular Nike products. <br>
 
