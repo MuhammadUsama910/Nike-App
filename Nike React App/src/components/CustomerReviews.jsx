@@ -1,5 +1,7 @@
 import { reviews } from "../constants";
-import ReviewCard from "./ReviewCard";
+import ReviewCard from "./Cards/ReviewCard";
+
+import { Carousel } from 'flowbite-react';
 
 const CustomerReviews = () => {
   return (
@@ -15,17 +17,19 @@ const CustomerReviews = () => {
        their exceptional experience with us. 
       </p>
 
-      <div className="mt-24 flex justify-evenly items-center flex-1 max-lg:flex-col gap-14">
-        {
-          reviews.map((review) => (
-            <ReviewCard key={review.customerName}
-              imgURL={review.imgURL}
-              customerName={review.customerName}
-              rating={review.rating}
-              feedback={review.feedback}
-            />
-          ))
-        }
+      <div className="mt-24 h-68 sm:h-68 xl:h-80 2xl:h-96">
+        <Carousel slideInterval={2100} pauseOnHover>
+          {
+            reviews.map((review) => (
+              <ReviewCard key={review.customerName}
+                imgURL={review.imgURL}
+                customerName={review.customerName}
+                rating={review.rating}
+                feedback={review.feedback}
+              />
+            ))
+          }
+        </Carousel>
       </div>
 
     </section>
